@@ -1,17 +1,7 @@
 Flask==2.2.2
 Flask-Bootstrap==3.3.7.1
 Flask-SQLAlchemy==3.0.2
-tensorboard==2.10.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-profile==2.8.0
-tensorboard-plugin-wit==1.8.1
 tensorflow==2.10.0
-tensorflow-addons==0.18.0
-tensorflow-datasets==4.7.0
-tensorflow-estimator==2.10.0
-tensorflow-hub==0.12.0
-tensorflow-io-gcs-filesystem==0.27.0
-tensorflow-metadata==1.10.0
 numpy==1.22.4
 requests
 pandas==1.4.4
