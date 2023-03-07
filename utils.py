@@ -23,7 +23,7 @@ def predict(data):
     reconstructed_imbs = pd.concat([reconstructed_imbs, pd.Series([reconstructed_imb[0][0]])], ignore_index=True)
     reconstruction_error = np.mean(np.square(reconstructed_imb - imb))
     reconstruction_errors = pd.concat([reconstruction_errors, pd.Series([reconstruction_error])], ignore_index=True)    
-    threshold = 100 * np.mean(reconstruction_errors)
+    threshold = 30 * np.mean(reconstruction_errors)
     is_anomaly = reconstruction_error - threshold > 0
     counts = pd.read_csv("counts.csv")
 
