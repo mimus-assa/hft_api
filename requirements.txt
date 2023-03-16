@@ -1,6 +1,6 @@
-Flask==2.2.2
-Flask-Bootstrap==3.3.7.1
-Flask-SQLAlchemy==3.0.2
+Flask
+Flask-Bootstrap
+Flask-SQLAlchemy
 tensorflow==2.10.0
 numpy==1.22.4
 requests

@@ -1,0 +1,65 @@
+2023-03-15 13:34:36,954 DEBUG: Creating converter from 3 to 5
+2023-03-15 13:34:37,523 DEBUG: Layer lstm will use cuDNN kernels when running on GPU.
+2023-03-15 13:34:37,527 DEBUG: Layer lstm_1 will use cuDNN kernels when running on GPU.
+2023-03-15 13:34:38,497 DEBUG: Layer lstm will use cuDNN kernels when running on GPU.
+2023-03-15 13:34:38,499 DEBUG: Layer lstm_1 will use cuDNN kernels when running on GPU.
+2023-03-15 13:34:39,997 DEBUG: Layer lstm will use cuDNN kernels when running on GPU.
+2023-03-15 13:34:40,000 DEBUG: Layer lstm_1 will use cuDNN kernels when running on GPU.
+2023-03-15 13:34:40,758 DEBUG: loaded model
+2023-03-15 13:34:40,798 INFO: Serving on http://0.0.0.0:5000
+2023-03-15 13:34:44,134 DEBUG: imb60 [[-100000]]
+2023-03-15 13:34:44,134 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:34:44,134 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:34:44,134 DEBUG: ts 350
+2023-03-15 13:34:46,090 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:34:46,767 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:34:46,769 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":350,"b":0,"s":6,"sv":false}]}}}
+
+2023-03-15 13:35:19,078 DEBUG: imb60 [[-100000]]
+2023-03-15 13:35:19,078 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:35:19,078 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:35:19,078 DEBUG: ts 350
+2023-03-15 13:35:19,398 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:35:20,068 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:35:20,069 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":350,"b":0,"s":6,"sv":false}]}}}
+
+2023-03-15 13:35:20,861 DEBUG: imb60 [[-100000]]
+2023-03-15 13:35:20,862 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:35:20,862 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:35:20,862 DEBUG: ts 350
+2023-03-15 13:35:20,924 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:35:21,430 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:35:21,432 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":350,"b":0,"s":6,"sv":false}]}}}
+
+2023-03-15 13:35:22,146 DEBUG: imb60 [[-100000]]
+2023-03-15 13:35:22,146 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:35:22,146 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:35:22,146 DEBUG: ts 350
+2023-03-15 13:35:22,217 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:35:22,726 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:35:22,727 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":350,"b":0,"s":6,"sv":false}]}}}
+
+2023-03-15 13:35:23,352 DEBUG: imb60 [[-100000]]
+2023-03-15 13:35:23,352 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:35:23,352 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:35:23,352 DEBUG: ts 350
+2023-03-15 13:35:23,417 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:35:23,916 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:35:23,917 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":350,"b":0,"s":6,"sv":false}]}}}
+
+2023-03-15 13:35:26,563 DEBUG: imb60 [[-100000]]
+2023-03-15 13:35:26,563 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:35:26,563 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:35:26,564 DEBUG: ts 360
+2023-03-15 13:35:28,171 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:35:28,839 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:35:28,841 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":360,"b":0,"s":7,"sv":false}]}}}
+
+2023-03-15 13:35:32,441 DEBUG: imb60 [[-100000]]
+2023-03-15 13:35:32,441 DEBUG: imb60sz [[-100000]]
+2023-03-15 13:35:32,441 DEBUG: imb5 [[-1000000]]
+2023-03-15 13:35:32,441 DEBUG: ts 360
+2023-03-15 13:35:32,607 DEBUG: Starting new HTTPS connection (1): pd.paguertrading.com:443
+2023-03-15 13:35:33,263 DEBUG: https://pd.paguertrading.com:443 "POST /graphql HTTP/1.1" 200 118
+2023-03-15 13:35:33,265 DEBUG: {"data":{"addHFT":{"exchange":"BYBIT","symbol":"BTCUSDT","interval":"M5","hft":[{"ts":360,"b":0,"s":8,"sv":false}]}}}
+
